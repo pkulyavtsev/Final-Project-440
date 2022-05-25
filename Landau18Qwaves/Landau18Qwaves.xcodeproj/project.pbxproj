@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40B7BAD72833130C00E0D3BA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BAD62833130C00E0D3BA /* Tests_iOS.swift */; };
+		40B7BAD92833130C00E0D3BA /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BAD82833130C00E0D3BA /* Tests_iOSLaunchTests.swift */; };
+		40B7BAE32833130C00E0D3BA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BAE22833130C00E0D3BA /* Tests_macOS.swift */; };
+		40B7BAE52833130C00E0D3BA /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BAE42833130C00E0D3BA /* Tests_macOSLaunchTests.swift */; };
+		40B7BAE62833130C00E0D3BA /* Landau18QwavesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BABE2833130A00E0D3BA /* Landau18QwavesApp.swift */; };
+		40B7BAE72833130C00E0D3BA /* Landau18QwavesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BABE2833130A00E0D3BA /* Landau18QwavesApp.swift */; };
+		40B7BAE82833130C00E0D3BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BABF2833130A00E0D3BA /* ContentView.swift */; };
+		40B7BAE92833130C00E0D3BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BABF2833130A00E0D3BA /* ContentView.swift */; };
+		40B7BAEA2833130C00E0D3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B7BAC02833130C00E0D3BA /* Assets.xcassets */; };
+		40B7BAEB2833130C00E0D3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B7BAC02833130C00E0D3BA /* Assets.xcassets */; };
+		40B7BAFB2833137500E0D3BA /* CalculateWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BAFA2833137500E0D3BA /* CalculateWave.swift */; };
+		40B7BAFC2833137500E0D3BA /* CalculateWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BAFA2833137500E0D3BA /* CalculateWave.swift */; };
+		40B7BAFF283313CA00E0D3BA /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 40B7BAFE283313CA00E0D3BA /* CorePlot */; };
+		40B7BB02283313FD00E0D3BA /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 40B7BB01283313FD00E0D3BA /* CorePlot */; };
+		40B7BB072833168100E0D3BA /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB032833168000E0D3BA /* CorePlot.swift */; };
+		40B7BB082833168100E0D3BA /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB032833168000E0D3BA /* CorePlot.swift */; };
+		40B7BB092833168100E0D3BA /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB032833168000E0D3BA /* CorePlot.swift */; };
+		40B7BB0A2833168100E0D3BA /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB032833168000E0D3BA /* CorePlot.swift */; };
+		40B7BB0B2833168100E0D3BA /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB042833168100E0D3BA /* CalculatePlotData.swift */; };
+		40B7BB0C2833168100E0D3BA /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB042833168100E0D3BA /* CalculatePlotData.swift */; };
+		40B7BB0D2833168100E0D3BA /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB042833168100E0D3BA /* CalculatePlotData.swift */; };
+		40B7BB0E2833168100E0D3BA /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB042833168100E0D3BA /* CalculatePlotData.swift */; };
+		40B7BB0F2833168100E0D3BA /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB052833168100E0D3BA /* PlotDataClass.swift */; };
+		40B7BB102833168100E0D3BA /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB052833168100E0D3BA /* PlotDataClass.swift */; };
+		40B7BB112833168100E0D3BA /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB052833168100E0D3BA /* PlotDataClass.swift */; };
+		40B7BB122833168100E0D3BA /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB052833168100E0D3BA /* PlotDataClass.swift */; };
+		40B7BB132833168100E0D3BA /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB062833168100E0D3BA /* ChangingPlotParameters.swift */; };
+		40B7BB142833168100E0D3BA /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB062833168100E0D3BA /* ChangingPlotParameters.swift */; };
+		40B7BB152833168100E0D3BA /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB062833168100E0D3BA /* ChangingPlotParameters.swift */; };
+		40B7BB162833168100E0D3BA /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7BB062833168100E0D3BA /* ChangingPlotParameters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40B7BAD32833130C00E0D3BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B7BAB92833130900E0D3BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B7BAC42833130C00E0D3BA;
+			remoteInfo = "Landau18Qwaves (iOS)";
+		};
+		40B7BADF2833130C00E0D3BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B7BAB92833130900E0D3BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B7BACA2833130C00E0D3BA;
+			remoteInfo = "Landau18Qwaves (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40B7BABE2833130A00E0D3BA /* Landau18QwavesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landau18QwavesApp.swift; sourceTree = "<group>"; };
+		40B7BABF2833130A00E0D3BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40B7BAC02833130C00E0D3BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40B7BAC52833130C00E0D3BA /* Landau18Qwaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landau18Qwaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B7BACB2833130C00E0D3BA /* Landau18Qwaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landau18Qwaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B7BACD2833130C00E0D3BA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		40B7BAD22833130C00E0D3BA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B7BAD62833130C00E0D3BA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		40B7BAD82833130C00E0D3BA /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		40B7BADE2833130C00E0D3BA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B7BAE22833130C00E0D3BA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		40B7BAE42833130C00E0D3BA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		40B7BAFA2833137500E0D3BA /* CalculateWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateWave.swift; sourceTree = "<group>"; };
+		40B7BB032833168000E0D3BA /* CorePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		40B7BB042833168100E0D3BA /* CalculatePlotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
+		40B7BB052833168100E0D3BA /* PlotDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		40B7BB062833168100E0D3BA /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40B7BAC22833130C00E0D3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7BAFF283313CA00E0D3BA /* CorePlot in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BAC82833130C00E0D3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7BB02283313FD00E0D3BA /* CorePlot in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BACF2833130C00E0D3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BADB2833130C00E0D3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40B7BAB82833130900E0D3BA = {
+			isa = PBXGroup;
+			children = (
+				40B7BABD2833130A00E0D3BA /* Shared */,
+				40B7BACC2833130C00E0D3BA /* macOS */,
+				40B7BAD52833130C00E0D3BA /* Tests iOS */,
+				40B7BAE12833130C00E0D3BA /* Tests macOS */,
+				40B7BAC62833130C00E0D3BA /* Products */,
+				40B7BB00283313FD00E0D3BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40B7BABD2833130A00E0D3BA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				40B7BABE2833130A00E0D3BA /* Landau18QwavesApp.swift */,
+				40B7BB042833168100E0D3BA /* CalculatePlotData.swift */,
+				40B7BB062833168100E0D3BA /* ChangingPlotParameters.swift */,
+				40B7BB032833168000E0D3BA /* CorePlot.swift */,
+				40B7BB052833168100E0D3BA /* PlotDataClass.swift */,
+				40B7BABF2833130A00E0D3BA /* ContentView.swift */,
+				40B7BAC02833130C00E0D3BA /* Assets.xcassets */,
+				40B7BAFA2833137500E0D3BA /* CalculateWave.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		40B7BAC62833130C00E0D3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B7BAC52833130C00E0D3BA /* Landau18Qwaves.app */,
+				40B7BACB2833130C00E0D3BA /* Landau18Qwaves.app */,
+				40B7BAD22833130C00E0D3BA /* Tests iOS.xctest */,
+				40B7BADE2833130C00E0D3BA /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40B7BACC2833130C00E0D3BA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				40B7BACD2833130C00E0D3BA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		40B7BAD52833130C00E0D3BA /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40B7BAD62833130C00E0D3BA /* Tests_iOS.swift */,
+				40B7BAD82833130C00E0D3BA /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		40B7BAE12833130C00E0D3BA /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				40B7BAE22833130C00E0D3BA /* Tests_macOS.swift */,
+				40B7BAE42833130C00E0D3BA /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		40B7BB00283313FD00E0D3BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40B7BAC42833130C00E0D3BA /* Landau18Qwaves (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B7BAEE2833130C00E0D3BA /* Build configuration list for PBXNativeTarget "Landau18Qwaves (iOS)" */;
+			buildPhases = (
+				40B7BAC12833130C00E0D3BA /* Sources */,
+				40B7BAC22833130C00E0D3BA /* Frameworks */,
+				40B7BAC32833130C00E0D3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Landau18Qwaves (iOS)";
+			packageProductDependencies = (
+				40B7BAFE283313CA00E0D3BA /* CorePlot */,
+			);
+			productName = "Landau18Qwaves (iOS)";
+			productReference = 40B7BAC52833130C00E0D3BA /* Landau18Qwaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40B7BACA2833130C00E0D3BA /* Landau18Qwaves (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B7BAF12833130C00E0D3BA /* Build configuration list for PBXNativeTarget "Landau18Qwaves (macOS)" */;
+			buildPhases = (
+				40B7BAC72833130C00E0D3BA /* Sources */,
+				40B7BAC82833130C00E0D3BA /* Frameworks */,
+				40B7BAC92833130C00E0D3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Landau18Qwaves (macOS)";
+			packageProductDependencies = (
+				40B7BB01283313FD00E0D3BA /* CorePlot */,
+			);
+			productName = "Landau18Qwaves (macOS)";
+			productReference = 40B7BACB2833130C00E0D3BA /* Landau18Qwaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40B7BAD12833130C00E0D3BA /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B7BAF42833130C00E0D3BA /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				40B7BACE2833130C00E0D3BA /* Sources */,
+				40B7BACF2833130C00E0D3BA /* Frameworks */,
+				40B7BAD02833130C00E0D3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B7BAD42833130C00E0D3BA /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 40B7BAD22833130C00E0D3BA /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		40B7BADD2833130C00E0D3BA /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B7BAF72833130C00E0D3BA /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				40B7BADA2833130C00E0D3BA /* Sources */,
+				40B7BADB2833130C00E0D3BA /* Frameworks */,
+				40B7BADC2833130C00E0D3BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B7BAE02833130C00E0D3BA /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 40B7BADE2833130C00E0D3BA /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40B7BAB92833130900E0D3BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					40B7BAC42833130C00E0D3BA = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					40B7BACA2833130C00E0D3BA = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					40B7BAD12833130C00E0D3BA = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 40B7BAC42833130C00E0D3BA;
+					};
+					40B7BADD2833130C00E0D3BA = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 40B7BACA2833130C00E0D3BA;
+					};
+				};
+			};
+			buildConfigurationList = 40B7BABC2833130900E0D3BA /* Build configuration list for PBXProject "Landau18Qwaves" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40B7BAB82833130900E0D3BA;
+			packageReferences = (
+				40B7BAFD283313CA00E0D3BA /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
+			productRefGroup = 40B7BAC62833130C00E0D3BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40B7BAC42833130C00E0D3BA /* Landau18Qwaves (iOS) */,
+				40B7BACA2833130C00E0D3BA /* Landau18Qwaves (macOS) */,
+				40B7BAD12833130C00E0D3BA /* Tests iOS */,
+				40B7BADD2833130C00E0D3BA /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B7BAC32833130C00E0D3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7BAEA2833130C00E0D3BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BAC92833130C00E0D3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7BAEB2833130C00E0D3BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BAD02833130C00E0D3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BADC2833130C00E0D3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40B7BAC12833130C00E0D3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7BAE82833130C00E0D3BA /* ContentView.swift in Sources */,
+				40B7BB0F2833168100E0D3BA /* PlotDataClass.swift in Sources */,
+				40B7BB072833168100E0D3BA /* CorePlot.swift in Sources */,
+				40B7BAE62833130C00E0D3BA /* Landau18QwavesApp.swift in Sources */,
+				40B7BB0B2833168100E0D3BA /* CalculatePlotData.swift in Sources */,
+				40B7BB132833168100E0D3BA /* ChangingPlotParameters.swift in Sources */,
+				40B7BAFB2833137500E0D3BA /* CalculateWave.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BAC72833130C00E0D3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7BAE92833130C00E0D3BA /* ContentView.swift in Sources */,
+				40B7BB102833168100E0D3BA /* PlotDataClass.swift in Sources */,
+				40B7BB082833168100E0D3BA /* CorePlot.swift in Sources */,
+				40B7BAE72833130C00E0D3BA /* Landau18QwavesApp.swift in Sources */,
+				40B7BB0C2833168100E0D3BA /* CalculatePlotData.swift in Sources */,
+				40B7BB142833168100E0D3BA /* ChangingPlotParameters.swift in Sources */,
+				40B7BAFC2833137500E0D3BA /* CalculateWave.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BACE2833130C00E0D3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7BB092833168100E0D3BA /* CorePlot.swift in Sources */,
+				40B7BB0D2833168100E0D3BA /* CalculatePlotData.swift in Sources */,
+				40B7BB112833168100E0D3BA /* PlotDataClass.swift in Sources */,
+				40B7BAD92833130C00E0D3BA /* Tests_iOSLaunchTests.swift in Sources */,
+				40B7BAD72833130C00E0D3BA /* Tests_iOS.swift in Sources */,
+				40B7BB152833168100E0D3BA /* ChangingPlotParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B7BADA2833130C00E0D3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7BB0A2833168100E0D3BA /* CorePlot.swift in Sources */,
+				40B7BB0E2833168100E0D3BA /* CalculatePlotData.swift in Sources */,
+				40B7BB122833168100E0D3BA /* PlotDataClass.swift in Sources */,
+				40B7BAE52833130C00E0D3BA /* Tests_macOSLaunchTests.swift in Sources */,
+				40B7BAE32833130C00E0D3BA /* Tests_macOS.swift in Sources */,
+				40B7BB162833168100E0D3BA /* ChangingPlotParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40B7BAD42833130C00E0D3BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40B7BAC42833130C00E0D3BA /* Landau18Qwaves (iOS) */;
+			targetProxy = 40B7BAD32833130C00E0D3BA /* PBXContainerItemProxy */;
+		};
+		40B7BAE02833130C00E0D3BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40B7BACA2833130C00E0D3BA /* Landau18Qwaves (macOS) */;
+			targetProxy = 40B7BADF2833130C00E0D3BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40B7BAEC2833130C00E0D3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40B7BAED2833130C00E0D3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		40B7BAEF2833130C00E0D3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phys440.Landau18Qwaves;
+				PRODUCT_NAME = Landau18Qwaves;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40B7BAF02833130C00E0D3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phys440.Landau18Qwaves;
+				PRODUCT_NAME = Landau18Qwaves;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40B7BAF22833130C00E0D3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phys440.Landau18Qwaves;
+				PRODUCT_NAME = Landau18Qwaves;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40B7BAF32833130C00E0D3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = phys440.Landau18Qwaves;
+				PRODUCT_NAME = Landau18Qwaves;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40B7BAF52833130C00E0D3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Landau18Qwaves (iOS)";
+			};
+			name = Debug;
+		};
+		40B7BAF62833130C00E0D3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Landau18Qwaves (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40B7BAF82833130C00E0D3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Landau18Qwaves (macOS)";
+			};
+			name = Debug;
+		};
+		40B7BAF92833130C00E0D3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "phys440.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Landau18Qwaves (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B7BABC2833130900E0D3BA /* Build configuration list for PBXProject "Landau18Qwaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B7BAEC2833130C00E0D3BA /* Debug */,
+				40B7BAED2833130C00E0D3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B7BAEE2833130C00E0D3BA /* Build configuration list for PBXNativeTarget "Landau18Qwaves (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B7BAEF2833130C00E0D3BA /* Debug */,
+				40B7BAF02833130C00E0D3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B7BAF12833130C00E0D3BA /* Build configuration list for PBXNativeTarget "Landau18Qwaves (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B7BAF22833130C00E0D3BA /* Debug */,
+				40B7BAF32833130C00E0D3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B7BAF42833130C00E0D3BA /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B7BAF52833130C00E0D3BA /* Debug */,
+				40B7BAF62833130C00E0D3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B7BAF72833130C00E0D3BA /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B7BAF82833130C00E0D3BA /* Debug */,
+				40B7BAF92833130C00E0D3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		40B7BAFD283313CA00E0D3BA /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		40B7BAFE283313CA00E0D3BA /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40B7BAFD283313CA00E0D3BA /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+		40B7BB01283313FD00E0D3BA /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40B7BAFD283313CA00E0D3BA /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 40B7BAB92833130900E0D3BA /* Project object */;
+}
